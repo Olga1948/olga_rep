@@ -15,7 +15,6 @@ class TaskAdmin(admin.ModelAdmin):
     list_filter = ['status', 'priority']
 
 
-
 admin.site.register(Task, TaskAdmin)
 admin.site.register(Project, ProjectAdmin)
 
